@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> pro1 </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+   <style>
+
+.container{
+   
+   width: 50%;
+   margin: 0 auto;
+}
+
+.header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+
+.left{
+    display: flex;
+}
+.subject{
+    margin-left: 4px;
+}
+.title p{
+    font-size: 10px;
+}
+.icon{
+    font-size: 1.3rem;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+.line .pra{ 
+    font-size: 2px;
+    color: white;
+    background-color: black; 
+    padding: 4px;
+}
+
+hr{
+    margin-top: 4px;
+    border: 3px inset black;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 1,2px;
+    box-shadow: 20px;
+}
+
+.Pizza{
+    
+    width: 100%;
+    display: inline-block;
+    margin: 10px auto;
+  
+}
+
+.one p{
+    text-align: justify;
+    margin-top: 10px;
+    
+}
+
+.list_pizza{
+    height: auto;
+    width: 100%;
+    margin: 18px 0;
+    background-image: url('img.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-inline: 10px;
+    box-shadow: 20px;
+    
+}
+.list_pizza div{
+    margin-right: 10px;
+}
+
+.T2{
+    margin: 5px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+}
+.content{
+    margin-right: 40px;
+}
+.pic{
+    width: 10px;
+    transform: rotate(4);
+    margin-top: 20px;
+    
+}
+
+
+.T1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.T1 > *{
+    margin: 20px;
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin-top: 65px;
+    border: 2px solid black;
+    background-color: red;
+    color: white;
+}
+.logo{
+ width: 7%;  
+ height: 10%; 
+}
+
+ </style>
+</head>
+<body>
+   <div class="container"> 
+<header class="header" >
+
+    <div class="left">
+        <span class="line pra "></span>
+        <div class="subject">
+              <h3> <img class="logo "src="logo.png" alt="logo">  Pizza Hut</h3>
+            <p> The best food blog in the world</p>
+        </div>
+    </div> 
+
+<div class="right">
+        <i class="fa-brands icon fa-square-facebook"></i>
+        <i class="fa-brands icon fa-square-instagram"></i>
+        <i class="fa-solid icon fa-envelope"></i>
+        <i class="fa-brands icon fa-square-twitter"></i>
+        <i class="fa-brands icon fa-square-google-plus"></i>
+    </div>
+</header>
+
+<article class="article">
+
+    <img  width="100%" src="line.png" alt="line">
+    <div class="one">
+        <h3 class="title"> Pizza Hut</h3>
+        <p>Posted on 1/7/2022 Pizza Journ</p>
+        <img  src="pizza.jpg" alt="Pizza Hut" title="Pizza Hut" class="Pizza" > 
+        <p> It is one of the American fast food chains with branches in many countries around the world. It specializes in pizza of all kinds, but it offers other meals. It also offers a takeaway delivery service in addition to the possibility of eating in the restaurant. Pizza Hut is the largest chain of pizza restaurants in the world in terms of the number of branches (12,000 branches) spread over 90 countries and nearly 300,000 employees. It started with two young brothers. In 1958, brothers Dan and Frank Kearney decided to open a pizza restaurant in Wichita, Kansas, USA, where a 25-seater restaurant was opened.</p>
+        <p>And when they wanted to name the restaurant, there was only room on the plate for 8 letters. The word "pizza" was chosen as the first word, since the restaurant was designed in the form of a hut. The word hut, which means “hut” in English, was chosen, and this was the beginning of Pizza Hut. At the end of 1986, Awni Shaker Company acquired the international Pizza Hut franchise in Saudi Arabia, and the first branch was opened in March 1987 in Tihama Center, Al-Andalus Street in Jeddah, then Olaya branch in Riyadh in 1987 and another branch in Al-Ahsa Street in 1988. In 1991 the company relinquished the Pizza Hut franchise outside the Jeddah area to Al Mawarid Company to focus its work in Jeddah. </p>
+        <p> Pizza Hut has always been a pioneering and innovative place where everyone shares their experiences and knowledge. As Frank Carney recalls, "Pizza's strength was in the presence of so many inventive people." The product's popularity increased, with thicker dough being baked in a deeper pan. But despite this development, the principles of Pizzahat remained constant, which is "Care for the customer". Pizza Hut's brand principles are: generosity, dedication, innovation, natural simplicity and fun. Because it has always been, and always will be, the goal of Pizza Hut to be more than just pizza.</p>
+    </div>
+    <div class="list_pizza">
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1">Ultimate Cheese </label>
+        </div>
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1">Spicy Chicken Ranch </label>
+        </div>
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1"> Hot Stuff Beef</label>
+        </div>
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1">Meat Lovers </label>
+        </div>
+        
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1">Pepperoni </label>
+        </div>
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1"> Super Supreme</label>
+        </div>
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1"> Bbq Chicken</label>
+        </div>
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1"> Grilled Chicken </label>
+        </div>
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1">Vegetarian </label>
+        </div>
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1">Margherita </label>
+        </div>
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1">  Foot Long Lasagna </label>
+        </div>
+        <div>
+            <input type="checkbox" id="pizza1" name="pizza1" value="pizza">
+            <label for="pizza1">Chicken Baked Pasta  </label>
+        </div>
+    </div>
+    <img  width="100%" src="line.png" alt="line">
+        <div class="T2">
+            <div class="content">
+                <img class="Pic" src="noor.png" alt="Noor AL-Kasasbeh" title="Noor AL-Kasasbeh">
+                <h3>Noor AL-Kasasbeh</h3>
+                <p>Great job, I share it with you. It was published in the magazine by me. </p>
+            </div>
+         <button>SHARE RECIPE</button>
+        </div>
+
+</article>
+<footer class="footer">
+    <div class="T1">
+        <span class="line pra"></span>
+        <img class="logo "src="logo.png" alt="logo"> 
+        <p>delicious 2013 All &copy; Rights Reserved.</p>
+        <p>proudly published with ghost</p>
+    </div>
+</div>
+</footer>
+
+</body>
+</html>
